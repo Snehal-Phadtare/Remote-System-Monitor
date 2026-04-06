@@ -1,28 +1,11 @@
-# 💻 Remote System Monitor
+# Remote System Monitor
 
-## 📌 Description
-This project monitors system performance like CPU and memory usage in real-time using a client-server model.
+This project monitors CPU, Memory, and Processes in real-time.  
+It gives alerts when the system is unstable and logs history for performance analysis.
 
-## ⚙️ Features
-- Real-time CPU usage monitoring
-- Memory usage tracking
-- Color indication:
-  - 🟢 Normal (< 50%)
-  - 🟡 Moderate (50–80%)
-  - 🔴 High (> 80%)
-- Remote monitoring using socket programming
-
-## 🛠️ Technologies Used
-- Python
-- Socket Programming
-
-## 🚀 How to Run
-
-### Server
-python server.py
-
-### Client
-python client.py
-
-## 👩‍💻 Author
-Snehal Phadtare
+**Features**
+- Real-time CPU, Memory, and Process monitoring
+- Alerts for high CPU/Memory usage
+- Logs history for analysis
+- Notification sound when system is unstable
+- Dark-themed GUI
